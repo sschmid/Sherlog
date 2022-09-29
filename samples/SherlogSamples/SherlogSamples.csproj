@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>true</ImplicitUsings>
+    <IsPackable>false</IsPackable>
+    <IsPublishable>false</IsPublishable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Sherlog.Appenders\src\Sherlog.Appenders.csproj" />
+    <ProjectReference Include="..\..\src\Sherlog.Formatters\src\Sherlog.Formatters.csproj" />
+    <ProjectReference Include="..\..\src\Sherlog\src\Sherlog.csproj" />
+  </ItemGroup>
+
+</Project>
