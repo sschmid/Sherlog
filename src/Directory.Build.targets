@@ -1,0 +1,16 @@
+<Project>
+
+  <PropertyGroup Label="NuGet">
+    <Authors>Simon Schmid</Authors>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageProjectUrl>https://github.com/sschmid/DesperateDevs</PackageProjectUrl>
+    <Company>Desperate Devs</Company>
+    <Description>$(AssemblyName)</Description>
+    <Copyright>Simon Schmid</Copyright>
+    <PackageTags>DesperateDevs, Desperate, Devs</PackageTags>
+    <RepositoryUrl>https://github.com/sschmid/DesperateDevs</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+
+</Project>

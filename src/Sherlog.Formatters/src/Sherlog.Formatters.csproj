@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>$(DefaultTargetFramework)</TargetFramework>
+    <PackageVersion>1.0.0</PackageVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../../Sherlog/src/Sherlog.csproj" />
+  </ItemGroup>
+
+</Project>

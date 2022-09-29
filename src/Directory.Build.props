@@ -1,0 +1,43 @@
+<Project>
+
+  <PropertyGroup>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <DefaultNetTargetFramework>net6.0</DefaultNetTargetFramework>
+    <DefaultTargetFramework>netstandard2.1</DefaultTargetFramework>
+    <DefaultTestTargetFramework>net6.0</DefaultTestTargetFramework>
+    <Deterministic>true</Deterministic>
+    <LangVersion>default</LangVersion>
+    <SatelliteResourceLanguages>en-US</SatelliteResourceLanguages>
+  </PropertyGroup>
+
+  <ItemGroup Label="NuGet">
+    <None Include="../../../icon.png" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+  <PropertyGroup Label="Docker">
+    <DefaultItemExcludes>$(DefaultItemExcludes);$(MSBuildProjectDirectory)/obj/**/*</DefaultItemExcludes>
+    <DefaultItemExcludes>$(DefaultItemExcludes);$(MSBuildProjectDirectory)/bin/**/*</DefaultItemExcludes>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(DOTNET_RUNNING_IN_CONTAINER)' == 'true'">
+    <BaseIntermediateOutputPath>$(MSBuildProjectDirectory)/obj/container/</BaseIntermediateOutputPath>
+    <BaseOutputPath>$(MSBuildProjectDirectory)/bin/container/</BaseOutputPath>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(DOTNET_RUNNING_IN_CONTAINER)' == 'true'">
+    <UnityEditor>$(MSBuildStartupDirectory)/build/Managed/UnityEditor.dll</UnityEditor>
+    <UnityEngine>$(MSBuildStartupDirectory)/build/Managed/UnityEngine.dll</UnityEngine>
+  </PropertyGroup>
+
+  <ItemGroup Label="Tests">
+    <PackageReference Update="xunit.runner.visualstudio">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Update="coverlet.collector">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+</Project>

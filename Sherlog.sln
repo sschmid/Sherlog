@@ -1,0 +1,56 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+#
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sherlog", "Sherlog", "{5BAFDDD4-9388-4E43-8CBB-C648243AE78F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sherlog", "src\Sherlog\src\Sherlog.csproj", "{5E53385B-6709-4DE3-BD63-44C7C6506189}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sherlog.Tests", "src\Sherlog\tests\Sherlog.Tests.csproj", "{DC32B1D6-8292-47DC-9900-B33EA52C01C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sherlog.Appenders", "Sherlog.Appenders", "{AFF34632-3CAD-4034-A277-2CEA95A70612}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sherlog.Appenders", "src\Sherlog.Appenders\src\Sherlog.Appenders.csproj", "{0A087C52-6165-4CC1-9BF3-9866D1D8AC92}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sherlog.Formatters", "Sherlog.Formatters", "{B6A57558-6B16-4C20-B7A3-258DF1FC28E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sherlog.Formatters", "src\Sherlog.Formatters\src\Sherlog.Formatters.csproj", "{A90D7628-BCBC-47CB-B70D-C199FD2387E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sherlog.Formatters.Tests", "src\Sherlog.Formatters\tests\Sherlog.Formatters.Tests.csproj", "{834C76D3-F2AC-4281-98F1-CCB8EB6B3D2D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E53385B-6709-4DE3-BD63-44C7C6506189}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E53385B-6709-4DE3-BD63-44C7C6506189}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E53385B-6709-4DE3-BD63-44C7C6506189}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E53385B-6709-4DE3-BD63-44C7C6506189}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC32B1D6-8292-47DC-9900-B33EA52C01C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC32B1D6-8292-47DC-9900-B33EA52C01C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC32B1D6-8292-47DC-9900-B33EA52C01C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC32B1D6-8292-47DC-9900-B33EA52C01C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A087C52-6165-4CC1-9BF3-9866D1D8AC92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A087C52-6165-4CC1-9BF3-9866D1D8AC92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A087C52-6165-4CC1-9BF3-9866D1D8AC92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A087C52-6165-4CC1-9BF3-9866D1D8AC92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A90D7628-BCBC-47CB-B70D-C199FD2387E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A90D7628-BCBC-47CB-B70D-C199FD2387E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A90D7628-BCBC-47CB-B70D-C199FD2387E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A90D7628-BCBC-47CB-B70D-C199FD2387E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{834C76D3-F2AC-4281-98F1-CCB8EB6B3D2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{834C76D3-F2AC-4281-98F1-CCB8EB6B3D2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{834C76D3-F2AC-4281-98F1-CCB8EB6B3D2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{834C76D3-F2AC-4281-98F1-CCB8EB6B3D2D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5E53385B-6709-4DE3-BD63-44C7C6506189} = {5BAFDDD4-9388-4E43-8CBB-C648243AE78F}
+		{DC32B1D6-8292-47DC-9900-B33EA52C01C6} = {5BAFDDD4-9388-4E43-8CBB-C648243AE78F}
+		{0A087C52-6165-4CC1-9BF3-9866D1D8AC92} = {AFF34632-3CAD-4034-A277-2CEA95A70612}
+		{A90D7628-BCBC-47CB-B70D-C199FD2387E1} = {B6A57558-6B16-4C20-B7A3-258DF1FC28E5}
+		{834C76D3-F2AC-4281-98F1-CCB8EB6B3D2D} = {B6A57558-6B16-4C20-B7A3-258DF1FC28E5}
+	EndGlobalSection
+EndGlobal
