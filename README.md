@@ -4,6 +4,13 @@ Sherlog is a very light logging library with a clear focus on speed,
 flexibility, and extensibility. It supports local and remote logging out of
 the box so you can receive log messages from other devices over the air.
 
+# Install
+
+## nuget
+- https://www.nuget.org/packages/Sherlog
+- https://www.nuget.org/packages/Sherlog.Appenders
+- https://www.nuget.org/packages/Sherlog.Formatters
+
 # Quick Start
 
 The SherlogSamples project contains samples for different use cases,
