@@ -22,7 +22,7 @@ from SherlogSamples via a TCP connection.
 ### See [SherlogServer](https://github.com/sschmid/Sherlog/blob/main/samples/SherlogServer/Program.cs)
 
 ```
-dotnet run --project samples/SherlogServer/SherlogServer.csproj
+dotnet run --project samples/SherlogServer/SherlogServer.csproj listen 12345
 ```
 
 ![SherlogSamples](readme/SherlogSamples.png)

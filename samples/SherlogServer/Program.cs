@@ -1,4 +1,9 @@
-﻿// Setup Sherlog
+﻿// Use TCPeasy.Cli https://github.com/sschmid/TCPeasy
+TCPeasy.Cli.Program.Main(args);
+
+// Manual setup using TCPeasy
+/*
+// Setup Sherlog
 Logger.GlobalLogLevel = LogLevel.Info;
 Logger.AddAppender((logger, logLevel, message) => Console.WriteLine(message));
 var logger = Logger.GetLogger(nameof(Program));
@@ -16,3 +21,4 @@ server.Listen(12345);
 Console.CancelKeyPress += delegate { server.Disconnect(); };
 
 while (true) Console.ReadLine();
+*/
