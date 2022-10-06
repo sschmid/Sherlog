@@ -4,6 +4,9 @@ Sherlog is a very light logging library with a clear focus on speed,
 flexibility, and extensibility. It supports local and remote logging out of
 the box so you can receive log messages from other devices over the air.
 
+![CI](https://github.com/sschmid/Sherlog/actions/workflows/ci.yml/badge.svg)
+[![](https://img.shields.io/twitter/follow/s_schmid)][twitter-sschmid]
+
 # Install
 
 ## nuget
