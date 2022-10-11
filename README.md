@@ -7,6 +7,8 @@ flexibility, and extensibility. It supports local and remote logging out of
 the box so you can receive log messages from other devices over the air.
 
 [![CI](https://github.com/sschmid/Sherlog/actions/workflows/ci.yml/badge.svg)](https://github.com/sschmid/Sherlog/actions/workflows/ci.yml)
+[![Coverage Status](https://coveralls.io/repos/github/sschmid/Sherlog/badge.svg)](https://coveralls.io/github/sschmid/Sherlog)
+[![Nuget](https://img.shields.io/nuget/dt/Sherlog)](https://www.nuget.org/packages/Sherlog)
 [![License: MIT](https://img.shields.io/github/license/sschmid/Sherlog)](https://github.com/sschmid/Sherlog/blob/main/LICENSE.md)
 [![](https://img.shields.io/twitter/follow/s_schmid)][twitter-sschmid]
 

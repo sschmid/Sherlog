@@ -7,10 +7,5 @@ on:
     branches: [ main ]
 
 jobs:
-  test:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-        with:
-          submodules: 'recursive'
-      - run: dotnet test
+  build:
+    uses: sschmid/Sherlog/.github/workflows/build.yml@main
