@@ -1,4 +1,6 @@
-# 🕵️‍♂️ Sherlog – Flexible logging for C# and Unity
+![Sherlog-Header](readme/Sherlog-Header.png)
+
+# Sherlog – Flexible logging for C# and Unity
 
 Sherlog is a very light logging library with a clear focus on speed,
 flexibility, and extensibility. It supports local and remote logging out of
