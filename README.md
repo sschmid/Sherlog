@@ -15,9 +15,12 @@ the box so you can receive log messages from other devices over the air.
 # Install
 
 ## nuget
-- https://www.nuget.org/packages/Sherlog
-- https://www.nuget.org/packages/Sherlog.Appenders
-- https://www.nuget.org/packages/Sherlog.Formatters
+
+|                    | NuGet                                                                                                            |
+|:-------------------|:-----------------------------------------------------------------------------------------------------------------|
+| Sherlog            | [![Nuget](https://img.shields.io/nuget/v/Sherlog)](https://www.nuget.org/packages/Sherlog)                       |
+| Sherlog.Appenders  | [![Nuget](https://img.shields.io/nuget/v/Sherlog.Appenders)](https://www.nuget.org/packages/Sherlog.Appenders)   |
+| Sherlog.Formatters | [![Nuget](https://img.shields.io/nuget/v/Sherlog.Formatters)](https://www.nuget.org/packages/Sherlog.Formatters) |
 
 # Quick Start
 
