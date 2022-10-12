@@ -14,8 +14,6 @@ the box so you can receive log messages from other devices over the air.
 
 # Install
 
-## nuget
-
 |                    | NuGet                                                                                                            |
 |:-------------------|:-----------------------------------------------------------------------------------------------------------------|
 | Sherlog            | [![Nuget](https://img.shields.io/nuget/v/Sherlog)](https://www.nuget.org/packages/Sherlog)                       |
