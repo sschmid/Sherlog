@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\Sherlog.Formatters\src\Sherlog.Formatters.csproj" />
+    <ProjectReference Include="../../src/Sherlog.Formatters/Sherlog.Formatters.csproj" />
   </ItemGroup>
 
 </Project>

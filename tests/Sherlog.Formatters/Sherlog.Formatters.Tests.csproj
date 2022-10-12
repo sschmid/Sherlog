@@ -16,8 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="../../Sherlog/src/Sherlog.csproj" />
-    <ProjectReference Include="../src/Sherlog.Formatters.csproj" />
+    <ProjectReference Include="../../src/Sherlog.Formatters/Sherlog.Formatters.csproj" />
   </ItemGroup>
 
 </Project>

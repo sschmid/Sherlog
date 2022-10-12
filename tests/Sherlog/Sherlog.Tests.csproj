@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="../src/Sherlog.csproj" />
+    <ProjectReference Include="../../src/Sherlog/Sherlog.csproj" />
   </ItemGroup>
 
 </Project>

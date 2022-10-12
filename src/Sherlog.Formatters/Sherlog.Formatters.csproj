@@ -6,11 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="../../Sherlog/src/Sherlog.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="TCPeasy" Version="1.0.0" />
+    <ProjectReference Include="../Sherlog/Sherlog.csproj" />
   </ItemGroup>
 
 </Project>
