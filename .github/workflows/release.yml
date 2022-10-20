@@ -9,7 +9,7 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     steps:
-      - name: "Download Packages"
+      - name: "Download packages"
         uses: actions/download-artifact@v3
         with:
           name: ${{ github.event.repository.name }} NuGet Packages

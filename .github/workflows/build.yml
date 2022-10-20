@@ -25,7 +25,7 @@ jobs:
       - name: "Publish"
         run: dotnet publish -c Release --no-build -o dist/Assemblies
 
-      - name: "Upload Assemblies"
+      - name: "Upload assemblies"
         uses: actions/upload-artifact@v3
         with:
           name: ${{ github.event.repository.name }} Assemblies
@@ -34,18 +34,18 @@ jobs:
       - name: "Pack"
         run: dotnet pack -c Release --no-build -o dist/NuGet
 
-      - name: "Upload Packages"
+      - name: "Upload packages"
         uses: actions/upload-artifact@v3
         with:
           name: ${{ github.event.repository.name }} NuGet Packages
           path: dist/NuGet
 
-      - name: "Generate Coverage Report"
+      - name: "Generate coverage report"
         run: |
           dotnet tool install -g dotnet-reportgenerator-globaltool
           reportgenerator -reports:"tests/**/TestResults/**/coverage.cobertura.xml" -targetdir:"coverage" -reporttypes:"Html;lcov"
 
-      - name: "Upload Coverage Report"
+      - name: "Upload coverage report"
         uses: actions/upload-artifact@v3
         with:
           name: ${{ github.event.repository.name }} Coverage Report
