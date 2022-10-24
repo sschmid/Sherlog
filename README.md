@@ -41,7 +41,7 @@ from SherlogSamples via a TCP connection.
 dotnet run --project samples/SherlogServer/SherlogServer.csproj listen 12345
 ```
 
-![SherlogSamples](readme/SherlogSamples.png)
+![SherlogSamples](https://github.com/sschmid/Sherlog/raw/main/readme/SherlogSamples.png)
 
 # Sherlog terminology
 
