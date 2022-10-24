@@ -1,4 +1,4 @@
-![Sherlog-Header](readme/Sherlog-Banner.png)
+![Sherlog-Header](https://github.com/sschmid/Sherlog/raw/main/readme/Sherlog-Banner.png)
 
 # Sherlog – Flexible logging for C# and Unity
 
