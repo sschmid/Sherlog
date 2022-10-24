@@ -14,11 +14,11 @@ the box so you can receive log messages from other devices over the air.
 
 # Install
 
-|                    | NuGet                                                                                                            |
-|:-------------------|:-----------------------------------------------------------------------------------------------------------------|
-| Sherlog            | [![Nuget](https://img.shields.io/nuget/v/Sherlog)](https://www.nuget.org/packages/Sherlog)                       |
-| Sherlog.Appenders  | [![Nuget](https://img.shields.io/nuget/v/Sherlog.Appenders)](https://www.nuget.org/packages/Sherlog.Appenders)   |
-| Sherlog.Formatters | [![Nuget](https://img.shields.io/nuget/v/Sherlog.Formatters)](https://www.nuget.org/packages/Sherlog.Formatters) |
+|                    | NuGet                                                                                                            | Unity                                                                                                                                                                                         |
+|:-------------------|:-----------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Sherlog            | [![Nuget](https://img.shields.io/nuget/v/Sherlog)](https://www.nuget.org/packages/Sherlog)                       | [![openupm](https://img.shields.io/npm/v/com.sschmid.sherlog?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.sschmid.sherlog)                       |
+| Sherlog.Appenders  | [![Nuget](https://img.shields.io/nuget/v/Sherlog.Appenders)](https://www.nuget.org/packages/Sherlog.Appenders)   | [![openupm](https://img.shields.io/npm/v/com.sschmid.sherlog.appenders?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.sschmid.sherlog.appenders)   |
+| Sherlog.Formatters | [![Nuget](https://img.shields.io/nuget/v/Sherlog.Formatters)](https://www.nuget.org/packages/Sherlog.Formatters) | [![openupm](https://img.shields.io/npm/v/com.sschmid.sherlog.formatters?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.sschmid.sherlog.formatters) |
 
 # Quick Start
 
