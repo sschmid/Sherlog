@@ -6,13 +6,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [1.0.0] - 2022-10-06
+## [Sherlog.Formatters/1.0.0] - 2022-10-06
+### Added
+- Add `Sherlog.Formatters`
+
+## [Sherlog.Appenders/1.0.0] - 2022-10-06
+### Added
+- Add `Sherlog.Appenders`
+
+## [Sherlog/1.0.0] - 2022-10-06
 ### Added
 - Add `Sherlog`
-- Add `Sherlog.Appenders`
-- Add `Sherlog.Formatters`
-- Add `SherlogSamples`
-- Add `SherlogServer`
 
-[Unreleased]: https://github.com/sschmid/Sherlog/compare/1.0.0...HEAD
-[1.0.0]: https://github.com/sschmid/Sherlog/releases/tag/1.0.0
+[Unreleased]: https://github.com/sschmid/Sherlog/compare/Sherlog.Formatters/1.0.0...HEAD
+[Sherlog.Formatters/1.0.0]: https://github.com/sschmid/Sherlog/releases/tag/Sherlog.Formatters/1.0.0
+[Sherlog.Appenders/1.0.0]: https://github.com/sschmid/Sherlog/releases/tag/Sherlog.Appenders/1.0.0
+[Sherlog/1.0.0]: https://github.com/sschmid/Sherlog/releases/tag/Sherlog/1.0.0
