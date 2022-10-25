@@ -18,6 +18,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Add `Sherlog`
 
+--------------------------------------------------------------------------------
+
+Sherlog has been extracted from the [DesperateDevs](https://github.com/sschmid/DesperateDevs) project.
+Please see previous changelog here:
+- https://github.com/sschmid/DesperateDevs/blob/main/CHANGELOG.md
+
 [Unreleased]: https://github.com/sschmid/Sherlog/compare/Sherlog.Formatters/1.0.0...HEAD
 [Sherlog.Formatters/1.0.0]: https://github.com/sschmid/Sherlog/releases/tag/Sherlog.Formatters/1.0.0
 [Sherlog.Appenders/1.0.0]: https://github.com/sschmid/Sherlog/releases/tag/Sherlog.Appenders/1.0.0
