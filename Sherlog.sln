@@ -4,7 +4,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sherlog", "Sherlog", "{5BAF
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sherlog", "src\Sherlog\Sherlog.csproj", "{5E53385B-6709-4DE3-BD63-44C7C6506189}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sherlog.Tests", "tests\Sherlog\Sherlog.Tests.csproj", "{DC32B1D6-8292-47DC-9900-B33EA52C01C6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sherlog.Tests", "tests\Sherlog.Tests\Sherlog.Tests.csproj", "{DC32B1D6-8292-47DC-9900-B33EA52C01C6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sherlog.Appenders", "Sherlog.Appenders", "{AFF34632-3CAD-4034-A277-2CEA95A70612}"
 EndProject
@@ -14,7 +14,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sherlog.Formatters", "Sherl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sherlog.Formatters", "src\Sherlog.Formatters\Sherlog.Formatters.csproj", "{A90D7628-BCBC-47CB-B70D-C199FD2387E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sherlog.Formatters.Tests", "tests\Sherlog.Formatters\Sherlog.Formatters.Tests.csproj", "{834C76D3-F2AC-4281-98F1-CCB8EB6B3D2D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sherlog.Formatters.Tests", "tests\Sherlog.Formatters.Tests\Sherlog.Formatters.Tests.csproj", "{834C76D3-F2AC-4281-98F1-CCB8EB6B3D2D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{12018E82-628D-4740-8423-E7FE68B66F4E}"
 EndProject
