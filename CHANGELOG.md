@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [Sherlog.Appenders/1.0.3] - 2022-11-11
+### Changed
+- Use version ranges for package references
+
 ## [Sherlog.Appenders/1.0.2] - 2022-11-11
 ### Changed
 - Revert using version ranges for package references
