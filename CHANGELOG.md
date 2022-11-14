@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [Sherlog.Formatters/2.0.0] - 2022-11-14
+### Changed
+- Add time delegate to TimestampFormatter
+
 ## [Sherlog.Appenders/1.0.3] - 2022-11-11
 ### Changed
 - Use version ranges for package references
@@ -36,7 +40,8 @@ Sherlog has been extracted from the [DesperateDevs](https://github.com/sschmid/D
 Please see previous changelog here:
 - https://github.com/sschmid/DesperateDevs/blob/main/CHANGELOG.md
 
-[Unreleased]: https://github.com/sschmid/Sherlog/compare/Sherlog.Appenders/1.0.1...HEAD
+[Unreleased]: https://github.com/sschmid/Sherlog/compare/Sherlog.Formatters/2.0.0...HEAD
+[Sherlog.Formatters/2.0.0]: https://github.com/sschmid/Sherlog/compare/Sherlog.Appenders/1.0.1...Sherlog.Formatters/2.0.0
 [Sherlog.Appenders/1.0.1]: https://github.com/sschmid/Sherlog/compare/Sherlog/1.0.0...Sherlog.Appenders/1.0.1
 [Sherlog/1.0.0]: https://github.com/sschmid/Sherlog/releases/tag/Sherlog/1.0.0
 [Sherlog.Formatters/1.0.0]: https://github.com/sschmid/Sherlog/releases/tag/Sherlog.Formatters/1.0.0

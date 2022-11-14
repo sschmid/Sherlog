@@ -70,7 +70,7 @@ void FormatterSample()
 {
     // Add more detailed message formatting
     var messageFormatter = new LogMessageFormatter();
-    var timestampFormatter = new TimestampFormatter();
+    var timestampFormatter = new TimestampFormatter(() => DateTime.UtcNow.ToString(CultureInfo.InvariantCulture));
     var consoleAppender = new ConsoleAppender(new Dictionary<LogLevel, ConsoleColor>
     {
         {LogLevel.Trace, ConsoleColor.Cyan},
@@ -125,7 +125,7 @@ void SendMessageViaTcpConnectionSample()
     Logger.GetLogger(typeof(TcpClientSocket)).LogLevel = LogLevel.Info;
 
     var messageFormatter = new LogMessageFormatter();
-    var timestampFormatter = new TimestampFormatter();
+    var timestampFormatter = new TimestampFormatter(() => DateTime.UtcNow.ToString(CultureInfo.InvariantCulture));
     var colorCodeFormatter = new ColorCodeFormatter();
     Logger.AddAppender((logger, level, message) =>
     {
