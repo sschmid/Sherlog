@@ -1,5 +1,3 @@
-using System;
-
 namespace Sherlog
 {
     public delegate void LogDelegate(Logger logger, LogLevel logLevel, string message);
@@ -37,10 +35,5 @@ namespace Sherlog
         }
 
         public void Reset() => OnLog = null;
-    }
-
-    public class SherlogAssertException : Exception
-    {
-        public SherlogAssertException(string message) : base(message) { }
     }
 }
