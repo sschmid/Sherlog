@@ -9,7 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="TCPeasy.Cli" Version="1.1.1" />
+    <PackageReference Include="TCPeasy.Cli" Version="1.*" />
   </ItemGroup>
 
   <ItemGroup>
