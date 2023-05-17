@@ -10,9 +10,9 @@ bin
 TestResults
 
 # IDEs
+.idea
 .vs
 .vscode
-.idea
 
 # Project
 build
